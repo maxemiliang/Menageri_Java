@@ -6,19 +6,22 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Package: Menageri.GameLogic
  */
 public class DjurList {
     private String filename;
+    private static ArrayList<String> AllAnimals = new ArrayList<>();
 
-    DjurList(String path) {
+    public DjurList(String path) {
         this.filename = "saves/" + path;
     }
 
     public ArrayList<Djur> read() {
         ArrayList<Djur> list = new ArrayList<>();
+
 
         Path file = Paths.get(this.filename);
 
@@ -26,7 +29,15 @@ public class DjurList {
 
         try (BufferedReader reader = Files.newBufferedReader(file, charset)){
             String line = null;
+            while ((line = reader.readLine()) != null) {
+                String[] temp = line.split(",");
 
+                if (!AllAnimals.contains(temp[0])) {
+                    Djur djur = new Djur(temp[0], temp[1]);
+                    AddAnimalToAllAnimals(temp[0]);
+                    list.add(djur);
+                }
+            }
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -34,4 +45,13 @@ public class DjurList {
 
         return list;
     }
+
+    public static void AddAnimalToAllAnimals(String animal) {
+        AllAnimals.add(animal);
+    }
+
+    public static ArrayList<String> GetAllAnimals() {
+        return AllAnimals;
+    }
+
 }
