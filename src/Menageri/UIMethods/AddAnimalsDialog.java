@@ -2,7 +2,6 @@ package Menageri.UIMethods;
 
 import Menageri.GameLogic.Djur;
 import Menageri.GameLogic.DjurList;
-import javafx.application.Application;
 import javafx.scene.control.TextInputDialog;
 
 import java.util.ArrayList;
@@ -33,6 +32,7 @@ public class AddAnimalsDialog {
                         return DjurArray;
                     }
                 } else {
+                    dialog.setHeaderText("Du matade in det fel!");
                     result = dialog.showAndWait();
                 }
             } else {
