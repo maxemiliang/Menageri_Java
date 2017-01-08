@@ -16,7 +16,7 @@ public class DjurList {
     private static ArrayList<String> AllAnimals = new ArrayList<>();
 
     public DjurList(String path) {
-        this.filename = "saves/" + path;
+        this.filename = "gamedata/" + path;
     }
 
     public ArrayList<Djur> read() {
@@ -32,9 +32,9 @@ public class DjurList {
             while ((line = reader.readLine()) != null) {
                 String[] temp = line.split(",");
 
-                if (!AllAnimals.contains(temp[0])) {
+                if (!AllAnimals.contains(temp[0].toLowerCase())) {
                     Djur djur = new Djur(temp[0], temp[1]);
-                    AddAnimalToAllAnimals(temp[0]);
+                    AddAnimalToAllAnimals(temp[0].toLowerCase());
                     list.add(djur);
                 }
             }

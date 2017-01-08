@@ -10,10 +10,9 @@ import java.util.ArrayList;
  */
 public class Tester {
     public static void main(String[] args) {
-        DjurList list = new DjurList("test.txt");
+        DjurList list = new DjurList("djur.txt");
+        System.out.println(Menageri.Helpers.GenerateID.Generate());
         ArrayList<Djur> djur = list.read();
-        System.out.println(djur);
-        djur = Menageri.UIMethods.AddAnimalsDialog.ShowDialog(djur);
         System.out.println(djur);
     }
 }

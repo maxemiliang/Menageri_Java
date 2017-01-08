@@ -8,10 +8,15 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 
-
-<AnchorPane fx:controller="Menageri.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="701.0" prefWidth="1144.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="701.0" prefWidth="1144.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Menageri.Controller">
    <children>
-      <ScrollPane layoutX="243.0" layoutY="14.0" prefHeight="678.0" prefWidth="889.0" />
+      <ScrollPane fx:id="scrollPane" layoutX="243.0" layoutY="14.0" prefHeight="678.0" prefWidth="889.0">
+         <content>
+            <TextArea fx:id="LogViewer" editable="false" prefHeight="676.0" prefWidth="887.0" />
+         </content></ScrollPane>
       <Button fx:id="Starta" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#StartGame" prefHeight="63.0" prefWidth="217.0" text="Starta" />
+      <Button fx:id="next" layoutX="14.0" layoutY="88.0" mnemonicParsing="false" onAction="#NextRound" prefHeight="63.0" prefWidth="217.0" text="Nästa Runda" />
+      <Button fx:id="save" layoutX="14.0" layoutY="164.0" mnemonicParsing="false" onAction="#SaveGame" prefHeight="63.0" prefWidth="217.0" text="Spara Spelet" />
+      <Button layoutX="14.0" layoutY="239.0" mnemonicParsing="false" onAction="#LoadGame" prefHeight="63.0" prefWidth="217.0" text="Ladda Spelet" />
    </children>
 </AnchorPane>

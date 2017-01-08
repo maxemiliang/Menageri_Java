@@ -1,5 +1,0 @@
-ko,mu
-ko,mu
-panda,bää
-häst,muu
-häst,blää

@@ -15,7 +15,7 @@ public class AddAnimalsDialog {
 
     public static ArrayList<Djur> ShowDialog(ArrayList<Djur> DjurArray) {
 
-        TextInputDialog dialog = new TextInputDialog("Ko,Mo");
+        TextInputDialog dialog = new TextInputDialog("djur,läte");
         dialog.setTitle("Lägg till ett djur");
         dialog.setHeaderText("Lägg till ett djur och ett läte separerat med ett kommatecken");
         dialog.setContentText("Lägg till här:");
@@ -26,10 +26,13 @@ public class AddAnimalsDialog {
                 String newAnimal = result.get();
                 String[] animalData = newAnimal.split(",");
                 if (animalData.length > 1) {
-                    if (!DjurList.GetAllAnimals().contains(animalData[0])) {
-                        DjurList.AddAnimalToAllAnimals(animalData[0]);
+                    if (!DjurList.GetAllAnimals().contains(animalData[0].toLowerCase())) {
+                        DjurList.AddAnimalToAllAnimals(animalData[0].toLowerCase());
                         DjurArray.add(new Djur(animalData[0], animalData[1]));
                         return DjurArray;
+                    } else {
+                        dialog.setHeaderText("Djuret finns redan!");
+                        result = dialog.showAndWait();
                     }
                 } else {
                     dialog.setHeaderText("Du matade in det fel!");

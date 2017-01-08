@@ -1,0 +1,12 @@
+ko,mu
+ko,mu
+panda,bää
+häst,muu
+häst,blää
+gorilla,huh
+orm,hiss
+zebra,ihah
+katt,mjau
+hund,woff
+apa,hohoh
+hamster,pip
