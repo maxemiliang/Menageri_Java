@@ -1,9 +1,11 @@
 package Menageri.GameLogic;
 
+import java.io.Serializable;
+
 /**
  * Package: Menageri.GameLogic
  */
-public class Djur {
+public class Djur implements Serializable {
 
     private String Djur;
     private String Sound;

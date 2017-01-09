@@ -2,10 +2,12 @@ package Menageri.GameLogic;
 
 import Menageri.Structure.SpelKortGränssnitt;
 
+import java.io.Serializable;
+
 /**
  * Package: Menageri.GameLogic
  */
-public class SpelKort implements SpelKortGränssnitt{
+public class SpelKort implements SpelKortGränssnitt,Serializable {
     private String color;
     private String value;
     private boolean isTurned;

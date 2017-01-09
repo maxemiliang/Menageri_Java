@@ -15,8 +15,8 @@
             <TextArea fx:id="LogViewer" editable="false" prefHeight="676.0" prefWidth="887.0" />
          </content></ScrollPane>
       <Button fx:id="Starta" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#StartGame" prefHeight="63.0" prefWidth="217.0" text="Starta" />
-      <Button fx:id="next" layoutX="14.0" layoutY="88.0" mnemonicParsing="false" onAction="#NextRound" prefHeight="63.0" prefWidth="217.0" text="Nästa Runda" />
-      <Button fx:id="save" layoutX="14.0" layoutY="164.0" mnemonicParsing="false" onAction="#SaveGame" prefHeight="63.0" prefWidth="217.0" text="Spara Spelet" />
+      <Button fx:id="next" disable="true" layoutX="14.0" layoutY="88.0" mnemonicParsing="false" onAction="#NextRound" prefHeight="63.0" prefWidth="217.0" text="Nästa Runda" />
+      <Button fx:id="save" disable="true" layoutX="14.0" layoutY="164.0" mnemonicParsing="false" onAction="#SaveGame" prefHeight="63.0" prefWidth="217.0" text="Spara Spelet" />
       <Button layoutX="14.0" layoutY="239.0" mnemonicParsing="false" onAction="#LoadGame" prefHeight="63.0" prefWidth="217.0" text="Ladda Spelet" />
    </children>
 </AnchorPane>

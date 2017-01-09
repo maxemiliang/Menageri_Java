@@ -16,6 +16,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextArea;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Random;
 
@@ -30,9 +31,9 @@ public class Controller {
 
     private boolean started;
     private HashMap<String, Spelare> lastTurnedColor = null;
-    private int currentPlayer = 1;
+    private int currentPlayer;
     private Integer numberOfPlayers;
-    private HashMap<Integer, Spelare> players = new HashMap<>();
+    private HashMap<Integer, Spelare> players;
     private ArrayList<Djur> sounds;
 
 
@@ -40,6 +41,8 @@ public class Controller {
         Spelare temp;
         DjurList listOfAnimals = new DjurList("djur.txt");
         sounds = listOfAnimals.read();
+        players = new HashMap<>();
+        currentPlayer = 1;
         numberOfPlayers = PlayerNumberDialog.ShowDialog();
         for (int i = 1; i < numberOfPlayers + 1; i++) {
             temp = GetPlayerInfoDialog.showDialog(i);
@@ -90,21 +93,19 @@ public class Controller {
         }
         started = true;
         Starta.setDisable(true);
+        next.setDisable(false);
+        save.setDisable(false);
     }
 
     public void NextRound(ActionEvent actionEvent) {
-        ArrayList<Spelare> winner = null;
+        ArrayList<Spelare> winner;
         if (started) {
             if (currentPlayer > numberOfPlayers) {
                 currentPlayer = 1;
             }
             Spelare spelare = players.get(currentPlayer);
-            while(!spelare.isPlaying()) {
-                currentPlayer++;
-                spelare = players.get(currentPlayer);
-            }
             currentPlayer++;
-
+            checkIfWeHaveAWinner();
             if (spelare.getNotTurnedCards().size() == 0 && spelare.getTurnedCards().size() == 0) {
                 spelare.setPlaying(false);
                 LogWriter.write(spelare.getID() + " Namn: " + spelare.getName() + " Är ute ur spelet");
@@ -112,9 +113,7 @@ public class Controller {
                 ArrayList<SpelKort> arrayOfCards = spelare.getTurnedCards();
                 spelare.removeTurnedCards();
                 spelare.addNotTurnedCardsFromArray(arrayOfCards);
-            }
-
-            if (spelare.isPlaying()) {
+            } else if (spelare.isPlaying()) {
                 SpelKort nextCard = spelare.getNotTurnedCards().get(0);
                 spelare.getNotTurnedCards().remove(0);
 
@@ -123,12 +122,21 @@ public class Controller {
 
                 if (lastTurnedColor != null) {
                     if (lastTurnedColor.containsKey(nextCard.getColor())) {
-                        winner = determineWinner(lastTurnedColor.get(nextCard.getColor()), spelare);
-                        ArrayList<SpelKort> tempKortArr = winner.get(1).getTurnedCards();
-                        winner.get(0).addNotTurnedCardsFromArray(tempKortArr);
-                        winner.get(1).removeTurnedCards();
-                        LogWriter.write("ID: " + winner.get(0).getID() + " Namn: " + winner.get(0).getName() + " Läte: " + winner.get(1).getPlayingAs().getSound());
-                        LogWriter.write("ID: " + winner.get(1).getID() + " Namn: " + winner.get(1).getName() + " Läte: " + winner.get(0).getPlayingAs().getSound());
+                        if (!lastTurnedColor.get(nextCard.getColor()).equals(spelare)) {
+                            winner = determineWinner(lastTurnedColor.get(nextCard.getColor()), spelare);
+                            ArrayList<SpelKort> tempKortArr = winner.get(1).getTurnedCards();
+                            Collections.reverse(tempKortArr);
+                            winner.get(0).addNotTurnedCardsFromArray(tempKortArr);
+                            winner.get(1).removeTurnedCards();
+                            LogWriter.write("ID: " + winner.get(0).getID() + " Namn: " + winner.get(0).getName() + " Läte: " + winner.get(1).getPlayingAs().getSound());
+                            LogWriter.write("ID: " + winner.get(1).getID() + " Namn: " + winner.get(1).getName() + " Läte: " + winner.get(0).getPlayingAs().getSound());
+                            Spelare loser = winner.get(1);
+                            for (int i : players.keySet()) {
+                                if (players.get(i).equals(loser)) {
+                                    currentPlayer = i;
+                                }
+                            }
+                        }
                     }
                     lastTurnedColor.clear();
                     lastTurnedColor.put(nextCard.getColor(), spelare);
@@ -143,10 +151,31 @@ public class Controller {
                 String textToShow = LogWriter.read();
                 LogViewer.setText(textToShow);
                 scrollPane.vvalueProperty().bind(LogViewer.heightProperty());
+            } else {
+                System.out.println(spelare.getName());
             }
 
         } else {
             DialogCreator.Show("Fel", "Spelet är inte startat ännu!", null);
+        }
+    }
+
+    private void checkIfWeHaveAWinner() {
+        ArrayList<String> play = new ArrayList<>(numberOfPlayers-1);
+        for (int i = 1; i <= numberOfPlayers; i++) {
+            if (players.get(i).isPlaying()) {
+                play.add("1");
+            } else {
+                play.add("0");
+            }
+        }
+        if (Collections.frequency(play, "1") == 1) {
+            int w = play.indexOf("1") + 1;
+            Spelare winner = players.get(w);
+            DialogCreator.Show("Vinnare!", "Vinnaren är: " + winner.getName() + "!", "Med IDn: " + winner.getID());
+            next.setDisable(true);
+            save.setDisable(true);
+            Starta.setDisable(false);
         }
     }
 

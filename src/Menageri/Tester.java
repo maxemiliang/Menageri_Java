@@ -2,6 +2,8 @@ package Menageri;
 
 import Menageri.GameLogic.Djur;
 import Menageri.GameLogic.DjurList;
+import Menageri.GameLogic.Saver.LoadGame;
+import Menageri.GameLogic.Saver.SaveGame;
 
 import java.util.ArrayList;
 
@@ -10,9 +12,10 @@ import java.util.ArrayList;
  */
 public class Tester {
     public static void main(String[] args) {
-        DjurList list = new DjurList("djur.txt");
-        System.out.println(Menageri.Helpers.GenerateID.Generate());
-        ArrayList<Djur> djur = list.read();
-        System.out.println(djur);
+        ArrayList<Object> s = new ArrayList<>();
+        s.add(new Djur("meme", "meme"));
+        if (SaveGame.Save(s, "test")) {
+            System.out.println(LoadGame.load("test").get(0));
+        }
     }
 }

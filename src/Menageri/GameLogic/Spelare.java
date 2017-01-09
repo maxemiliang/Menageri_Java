@@ -2,12 +2,13 @@ package Menageri.GameLogic;
 
 import Menageri.Structure.Person;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  * Package: Menageri.GameLogic
  */
-public class Spelare extends Person {
+public class Spelare extends Person implements Serializable {
     private ArrayList<SpelKort> turnedCards;
     private ArrayList<SpelKort> notTurnedCards;
     private Djur playingAs;

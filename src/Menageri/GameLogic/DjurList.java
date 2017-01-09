@@ -1,17 +1,17 @@
 package Menageri.GameLogic;
 
 import java.io.BufferedReader;
+import java.io.Serializable;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 /**
  * Package: Menageri.GameLogic
  */
-public class DjurList {
+public class DjurList implements Serializable{
     private String filename;
     private static ArrayList<String> AllAnimals = new ArrayList<>();
 
@@ -28,7 +28,7 @@ public class DjurList {
         Charset charset = Charset.defaultCharset();
 
         try (BufferedReader reader = Files.newBufferedReader(file, charset)){
-            String line = null;
+            String line;
             while ((line = reader.readLine()) != null) {
                 String[] temp = line.split(",");
 

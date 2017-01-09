@@ -1,9 +1,11 @@
 package Menageri.Structure;
 
+import java.io.Serializable;
+
 /**
  * Package: Menageri.Structure
  */
-public abstract class Person {
+public abstract class Person implements Serializable{
     private String name;
     private String ID;
 
