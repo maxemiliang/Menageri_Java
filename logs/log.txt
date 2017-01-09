@@ -1,0 +1,74 @@
+ID: VMHEVL-7056 Namn: 1 Valör: Ruter Värde: 4
+ID: LVZIQW-2268 Namn: 2 Valör: Hjärter Värde: Q
+ID: PNSFYS-1727 Namn: 3 Valör: Ruter Värde: 9
+ID: CGAUJJ-2180 Namn: 4 Valör: Klöver Värde: 10
+ID: HKIBMO-7808 Namn: 5 Valör: Hjärter Värde: 10
+ID: BHCNHD-2058 Namn: 6 Valör: Klöver Värde: 5
+ID: FXLSGW-4044 Namn: 7 Valör: Hjärter Värde: 7
+ID: RLEIJI-2140 Namn: 8 Valör: Klöver Värde: J
+ID: QFGSMV-7648 Namn: 9 Valör: Spader Värde: 2
+ID: RXBJCU-2076 Namn: 10 Valör: Klöver Värde: 8
+ID: VMHEVL-7056 Namn: 1 Valör: Hjärter Värde: J
+ID: LVZIQW-2268 Namn: 2 Valör: Klöver Värde: 7
+ID: PNSFYS-1727 Namn: 3 Valör: Spader Värde: 6
+ID: CGAUJJ-2180 Namn: 4 Valör: Hjärter Värde: 2
+ID: HKIBMO-7808 Namn: 5 Valör: Spader Värde: K
+ID: BHCNHD-2058 Namn: 6 Valör: Spader Värde: 4
+ID: HKIBMO-7808 Namn: 5 Läte: mu
+ID: BHCNHD-2058 Namn: 6 Läte: mjau
+ID: FXLSGW-4044 Namn: 7 Valör: Hjärter Värde: 4
+ID: RLEIJI-2140 Namn: 8 Valör: Ruter Värde: 2
+ID: QFGSMV-7648 Namn: 9 Valör: Ruter Värde: A
+ID: RLEIJI-2140 Namn: 8 Läte: bää
+ID: QFGSMV-7648 Namn: 9 Läte: muu
+ID: RXBJCU-2076 Namn: 10 Valör: Klöver Värde: 4
+ID: VMHEVL-7056 Namn: 1 Valör: Ruter Värde: 6
+ID: LVZIQW-2268 Namn: 2 Valör: Spader Värde: 8
+ID: PNSFYS-1727 Namn: 3 Valör: Spader Värde: 7
+ID: LVZIQW-2268 Namn: 2 Läte: pip
+ID: PNSFYS-1727 Namn: 3 Läte: hiss
+ID: CGAUJJ-2180 Namn: 4 Valör: Klöver Värde: Q
+ID: HKIBMO-7808 Namn: 5 Valör: Ruter Värde: 10
+ID: BHCNHD-2058 Namn: 6 Valör: Ruter Värde: Q
+ID: HKIBMO-7808 Namn: 5 Läte: mu
+ID: BHCNHD-2058 Namn: 6 Läte: mjau
+ID: FXLSGW-4044 Namn: 7 Valör: Ruter Värde: K
+ID: BHCNHD-2058 Namn: 6 Läte: woff
+ID: FXLSGW-4044 Namn: 7 Läte: mu
+ID: RLEIJI-2140 Namn: 8 Valör: Ruter Värde: 5
+ID: FXLSGW-4044 Namn: 7 Läte: muu
+ID: RLEIJI-2140 Namn: 8 Läte: woff
+ID: QFGSMV-7648 Namn: 9 Valör: Ruter Värde: 7
+ID: RLEIJI-2140 Namn: 8 Läte: bää
+ID: QFGSMV-7648 Namn: 9 Läte: muu
+ID: RXBJCU-2076 Namn: 10 Valör: Hjärter Värde: 8
+ID: VMHEVL-7056 Namn: 1 Valör: Hjärter Värde: 6
+ID: RXBJCU-2076 Namn: 10 Läte: hohoh
+ID: VMHEVL-7056 Namn: 1 Läte: ihah
+ID: LVZIQW-2268 Namn: 2 Valör: Ruter Värde: J
+ID: PNSFYS-1727 Namn: 3 Valör: Spader Värde: 10
+ID: CGAUJJ-2180 Namn: 4 Valör: Hjärter Värde: 9
+ID: HKIBMO-7808 Namn: 5 Valör: Ruter Värde: 8
+ID: BHCNHD-2058 Namn: 6 Valör: Hjärter Värde: 5
+ID: FXLSGW-4044 Namn: 7 Valör: Klöver Värde: 3
+ID: RLEIJI-2140 Namn: 8 Valör: Hjärter Värde: K
+ID: QFGSMV-7648 Namn: 9 Valör: Spader Värde: 5
+ID: RXBJCU-2076 Namn: 10 Valör: Ruter Värde: 3
+ID: VMHEVL-7056 Namn: 1 Valör: Spader Värde: Q
+ID: LVZIQW-2268 Namn: 2 Valör: Spader Värde: J
+ID: VMHEVL-7056 Namn: 1 Läte: hiss
+ID: LVZIQW-2268 Namn: 2 Läte: hohoh
+ID: PNSFYS-1727 Namn: 3 Valör: Klöver Värde: 2
+ID: CGAUJJ-2180 Namn: 4 Valör: Hjärter Värde: 3
+ID: HKIBMO-7808 Namn: 5 Valör: Klöver Värde: 5
+ID: BHCNHD-2058 Namn: 6 Valör: Hjärter Värde: 7
+ID: FXLSGW-4044 Namn: 7 Valör: Klöver Värde: J
+ID: RLEIJI-2140 Namn: 8 Valör: Spader Värde: 2
+ID: QFGSMV-7648 Namn: 9 Valör: Spader Värde: 9
+ID: RLEIJI-2140 Namn: 8 Läte: bää
+ID: QFGSMV-7648 Namn: 9 Läte: muu
+ID: RXBJCU-2076 Namn: 10 Valör: Ruter Värde: 4
+ID: VMHEVL-7056 Namn: 1 Valör: Hjärter Värde: Q
+ID: LVZIQW-2268 Namn: 2 Valör: Ruter Värde: 9
+ID: HKIBMO-7808 Namn: 5 Valör: Spader Värde: 4
+ID: BHCNHD-2058 Namn: 6 Valör: Hjärter Värde: 4
