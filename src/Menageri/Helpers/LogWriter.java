@@ -13,9 +13,10 @@ public class LogWriter {
 
     public static void clear() {
         try {
-            PrintWriter w = new PrintWriter(logFile);
+            FileWriter w = new FileWriter(logFile, false);
+            w.write("", 0, 1);
             w.close();
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

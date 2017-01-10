@@ -2,14 +2,13 @@ package Menageri;
 
 import Menageri.GameLogic.Djur;
 import Menageri.GameLogic.DjurList;
+import Menageri.GameLogic.Saver.LoadGame;
+import Menageri.GameLogic.Saver.SaveGame;
 import Menageri.GameLogic.SpelKort;
 import Menageri.GameLogic.Spelare;
 import Menageri.Helpers.GenerateCards;
 import Menageri.Helpers.LogWriter;
-import Menageri.UIMethods.AddAnimalsDialog;
-import Menageri.UIMethods.DialogCreator;
-import Menageri.UIMethods.GetPlayerInfoDialog;
-import Menageri.UIMethods.PlayerNumberDialog;
+import Menageri.UIMethods.*;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
 import javafx.scene.control.ScrollPane;
@@ -192,18 +191,43 @@ public class Controller {
     }
 
     public void SaveGame(ActionEvent actionEvent) {
-        if (started) {
-
+        ArrayList<Object> gameData = new ArrayList<>(5);
+        String save = TextDialogGetter.Show("Spara spelet", "Välj namn att spara spelet som", "Detta är filnamet som spelet kommer sparas på");
+        if (save.equals("")) {
+            DialogCreator.Show("Felaktigt input", "Filnamnet du skall spara kan inte vara tomt", null);
         } else {
-            DialogCreator.Show("Fel", "Spelet är inte startat ännu!", null);
+            gameData.add(lastTurnedColor);
+            gameData.add(currentPlayer);
+            gameData.add(numberOfPlayers);
+            gameData.add(players);
+            gameData.add(sounds);
+            if(!SaveGame.Save(gameData, save)) {
+                DialogCreator.Show("Något gick fel!", "Det gick inte att spara filen!", null);
+            }
+
         }
     }
 
     public void LoadGame(ActionEvent actionEvent) {
-        if (started) {
-
+        String load = TextDialogGetter.Show("Ladda spel!", "Namnet på spelet du vill ladda!", "Detta är namnet på filen du vill ladda!");
+        if (load.equals("")) {
+            DialogCreator.Show("Felaktigt input", "Filnamnet du skall spara kan inte vara tomt", null);
         } else {
-            DialogCreator.Show("Fel", "Spelet är inte startat ännu!", null);
+            ArrayList<Object> gameData = LoadGame.load(load);
+            if (gameData.size() != 0) {
+                lastTurnedColor = (HashMap<String, Spelare>) gameData.get(0);
+                currentPlayer = (int) gameData.get(1);
+                numberOfPlayers = (Integer) gameData.get(2);
+                players = (HashMap<Integer, Spelare>) gameData.get(3);
+                sounds = (ArrayList<Djur>) gameData.get(4);
+                started = true;
+                LogViewer.clear();
+                Starta.setDisable(true);
+                next.setDisable(false);
+                save.setDisable(false);
+            } else {
+                DialogCreator.Show("Något gick fel!", "Det gick inte att ladda filen!", null);
+            }
         }
     }
 }

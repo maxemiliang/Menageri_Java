@@ -1,191 +1,83 @@
-ID: FVYXSF-4630 Namn: 1 Valör: Ruter Värde: A
-ID: SXIGKH-6034 Namn: 2 Valör: Klöver Värde: A
-ID: KYISVS-5583 Namn: 3 Valör: Ruter Värde: J
-ID: QHGTSV-8586 Namn: 4 Valör: Spader Värde: 4
-ID: ULFZHT-6021 Namn: 5 Valör: Hjärter Värde: 9
-ID: LIFTAE-0466 Namn: 6 Valör: Spader Värde: 8
-ID: AJBBJO-7541 Namn: 7 Valör: Spader Värde: 2
-ID: LIFTAE-0466 Namn: 6 Läte: bää
-ID: AJBBJO-7541 Namn: 7 Läte: mjau
-ID: AJBBJO-7541 Namn: 7 Valör: Klöver Värde: 8
-ID: MTHKPC-5688 Namn: 8 Valör: Ruter Värde: 2
-ID: RRCHUE-2864 Namn: 9 Valör: Ruter Värde: 4
-ID: MTHKPC-5688 Namn: 8 Läte: pip
-ID: RRCHUE-2864 Namn: 9 Läte: huh
-ID: RRCHUE-2864 Namn: 9 Valör: Spader Värde: J
-ID: JUQSRY-8504 Namn: 10 Valör: Spader Värde: 7
-ID: RRCHUE-2864 Namn: 9 Läte: mu
-ID: JUQSRY-8504 Namn: 10 Läte: pip
-ID: JUQSRY-8504 Namn: 10 Valör: Ruter Värde: 8
-ID: FVYXSF-4630 Namn: 1 Valör: Spader Värde: 9
-ID: SXIGKH-6034 Namn: 2 Valör: Hjärter Värde: A
-ID: KYISVS-5583 Namn: 3 Valör: Spader Värde: 5
-ID: QHGTSV-8586 Namn: 4 Valör: Klöver Värde: 10
-ID: ULFZHT-6021 Namn: 5 Valör: Hjärter Värde: 10
-ID: LIFTAE-0466 Namn: 6 Valör: Hjärter Värde: 4
-ID: ULFZHT-6021 Namn: 5 Läte: mjau
-ID: LIFTAE-0466 Namn: 6 Läte: ihah
-ID: LIFTAE-0466 Namn: 6 Valör: Hjärter Värde: 8
-ID: AJBBJO-7541 Namn: 7 Valör: Ruter Värde: 7
-ID: MTHKPC-5688 Namn: 8 Valör: Klöver Värde: 7
-ID: RRCHUE-2864 Namn: 9 Valör: Ruter Värde: 5
-ID: JUQSRY-8504 Namn: 10 Valör: Spader Värde: 6
-ID: FVYXSF-4630 Namn: 1 Valör: Klöver Värde: Q
-ID: SXIGKH-6034 Namn: 2 Valör: Hjärter Värde: K
-ID: KYISVS-5583 Namn: 3 Valör: Ruter Värde: 3
-ID: QHGTSV-8586 Namn: 4 Valör: Spader Värde: K
-ID: ULFZHT-6021 Namn: 5 Valör: Hjärter Värde: J
-ID: LIFTAE-0466 Namn: 6 Valör: Spader Värde: Q
-ID: AJBBJO-7541 Namn: 7 Valör: Klöver Värde: K
-ID: MTHKPC-5688 Namn: 8 Valör: Hjärter Värde: Q
-ID: RRCHUE-2864 Namn: 9 Valör: Klöver Värde: 4
-ID: JUQSRY-8504 Namn: 10 Valör: Klöver Värde: 6
-ID: RRCHUE-2864 Namn: 9 Läte: mu
-ID: JUQSRY-8504 Namn: 10 Läte: pip
-ID: JUQSRY-8504 Namn: 10 Valör: Hjärter Värde: 2
-ID: FVYXSF-4630 Namn: 1 Valör: Spader Värde: 10
-ID: SXIGKH-6034 Namn: 2 Valör: Spader Värde: A
-ID: FVYXSF-4630 Namn: 1 Läte: hiss
-ID: SXIGKH-6034 Namn: 2 Läte: muu
-ID: SXIGKH-6034 Namn: 2 Valör: Klöver Värde: 5
-ID: KYISVS-5583 Namn: 3 Valör: Ruter Värde: 10
-ID: QHGTSV-8586 Namn: 4 Valör: Klöver Värde: 2
-ID: ULFZHT-6021 Namn: 5 Valör: Hjärter Värde: 3
-ID: LIFTAE-0466 Namn: 6 Valör: Klöver Värde: 9
-ID: AJBBJO-7541 Namn: 7 Valör: Klöver Värde: J
-ID: LIFTAE-0466 Namn: 6 Läte: bää
-ID: AJBBJO-7541 Namn: 7 Läte: mjau
-ID: MTHKPC-5688 Namn: 8 Valör: Hjärter Värde: 5
-ID: RRCHUE-2864 Namn: 9 Valör: Spader Värde: 7
-ID: FVYXSF-4630 Namn: 1 Valör: Ruter Värde: 6
-ID: SXIGKH-6034 Namn: 2 Valör: Hjärter Värde: 6
-ID: KYISVS-5583 Namn: 3 Valör: Klöver Värde: 3
-ID: QHGTSV-8586 Namn: 4 Valör: Ruter Värde: Q
-ID: ULFZHT-6021 Namn: 5 Valör: Spader Värde: 8
-ID: LIFTAE-0466 Namn: 6 Valör: Spader Värde: 2
-ID: ULFZHT-6021 Namn: 5 Läte: mjau
-ID: LIFTAE-0466 Namn: 6 Läte: ihah
-ID: LIFTAE-0466 Namn: 6 Valör: Klöver Värde: 8
-AJBBJO-7541 Namn: 7 Är ute ur spelet
-ID: MTHKPC-5688 Namn: 8 Valör: Ruter Värde: K
-ID: RRCHUE-2864 Namn: 9 Valör: Ruter Värde: 8
-ID: MTHKPC-5688 Namn: 8 Läte: pip
-ID: RRCHUE-2864 Namn: 9 Läte: huh
-ID: RRCHUE-2864 Namn: 9 Valör: Spader Värde: 6
-JUQSRY-8504 Namn: 10 Är ute ur spelet
-ID: FVYXSF-4630 Namn: 1 Valör: Klöver Värde: A
-ID: ULFZHT-6021 Namn: 5 Valör: Hjärter Värde: 4
-ID: LIFTAE-0466 Namn: 6 Valör: Ruter Värde: 7
-AJBBJO-7541 Namn: 7 Är ute ur spelet
-ID: MTHKPC-5688 Namn: 8 Valör: Ruter Värde: 4
-ID: LIFTAE-0466 Namn: 6 Läte: huh
-ID: MTHKPC-5688 Namn: 8 Läte: mjau
-ID: MTHKPC-5688 Namn: 8 Valör: Spader Värde: J
-ID: RRCHUE-2864 Namn: 9 Valör: Hjärter Värde: 7
-JUQSRY-8504 Namn: 10 Är ute ur spelet
-ID: FVYXSF-4630 Namn: 1 Valör: Hjärter Värde: A
-ID: RRCHUE-2864 Namn: 9 Läte: muu
-ID: FVYXSF-4630 Namn: 1 Läte: pip
-ID: FVYXSF-4630 Namn: 1 Valör: Hjärter Värde: K
-SXIGKH-6034 Namn: 2 Är ute ur spelet
-KYISVS-5583 Namn: 3 Är ute ur spelet
-QHGTSV-8586 Namn: 4 Är ute ur spelet
-ID: ULFZHT-6021 Namn: 5 Valör: Hjärter Värde: 8
-ID: FVYXSF-4630 Namn: 1 Läte: ihah
-ID: ULFZHT-6021 Namn: 5 Läte: muu
-ID: ULFZHT-6021 Namn: 5 Valör: Spader Värde: Q
-ID: LIFTAE-0466 Namn: 6 Valör: Ruter Värde: 2
-AJBBJO-7541 Namn: 7 Är ute ur spelet
-ID: MTHKPC-5688 Namn: 8 Valör: Ruter Värde: 5
-ID: LIFTAE-0466 Namn: 6 Läte: huh
-ID: MTHKPC-5688 Namn: 8 Läte: mjau
-ID: MTHKPC-5688 Namn: 8 Valör: Klöver Värde: 4
-ID: RRCHUE-2864 Namn: 9 Valör: Ruter Värde: A
-JUQSRY-8504 Namn: 10 Är ute ur spelet
-ID: FVYXSF-4630 Namn: 1 Valör: Hjärter Värde: 9
-SXIGKH-6034 Namn: 2 Är ute ur spelet
-KYISVS-5583 Namn: 3 Är ute ur spelet
-QHGTSV-8586 Namn: 4 Är ute ur spelet
-ID: ULFZHT-6021 Namn: 5 Valör: Klöver Värde: 9
-ID: LIFTAE-0466 Namn: 6 Valör: Klöver Värde: 7
-ID: ULFZHT-6021 Namn: 5 Läte: mjau
-ID: LIFTAE-0466 Namn: 6 Läte: ihah
-ID: LIFTAE-0466 Namn: 6 Valör: Hjärter Värde: Q
-AJBBJO-7541 Namn: 7 Är ute ur spelet
-ID: MTHKPC-5688 Namn: 8 Valör: Spader Värde: 7
-ID: RRCHUE-2864 Namn: 9 Valör: Spader Värde: 9
-ID: MTHKPC-5688 Namn: 8 Läte: pip
-ID: RRCHUE-2864 Namn: 9 Läte: huh
-ID: RRCHUE-2864 Namn: 9 Valör: Klöver Värde: Q
-JUQSRY-8504 Namn: 10 Är ute ur spelet
-ID: FVYXSF-4630 Namn: 1 Valör: Hjärter Värde: 10
-SXIGKH-6034 Namn: 2 Är ute ur spelet
-KYISVS-5583 Namn: 3 Är ute ur spelet
-QHGTSV-8586 Namn: 4 Är ute ur spelet
-ID: ULFZHT-6021 Namn: 5 Valör: Spader Värde: 2
-ID: LIFTAE-0466 Namn: 6 Valör: Hjärter Värde: 5
-AJBBJO-7541 Namn: 7 Är ute ur spelet
-ID: MTHKPC-5688 Namn: 8 Valör: Ruter Värde: 8
-ID: RRCHUE-2864 Namn: 9 Valör: Spader Värde: 10
-JUQSRY-8504 Namn: 10 Är ute ur spelet
-ID: FVYXSF-4630 Namn: 1 Valör: Hjärter Värde: J
-SXIGKH-6034 Namn: 2 Är ute ur spelet
-KYISVS-5583 Namn: 3 Är ute ur spelet
-QHGTSV-8586 Namn: 4 Är ute ur spelet
-ID: ULFZHT-6021 Namn: 5 Valör: Klöver Värde: 8
-ID: LIFTAE-0466 Namn: 6 Valör: Ruter Värde: K
-AJBBJO-7541 Namn: 7 Är ute ur spelet
-ID: MTHKPC-5688 Namn: 8 Valör: Spader Värde: 6
-ID: RRCHUE-2864 Namn: 9 Valör: Ruter Värde: 6
-JUQSRY-8504 Namn: 10 Är ute ur spelet
-ID: FVYXSF-4630 Namn: 1 Valör: Hjärter Värde: 3
-SXIGKH-6034 Namn: 2 Är ute ur spelet
-KYISVS-5583 Namn: 3 Är ute ur spelet
-QHGTSV-8586 Namn: 4 Är ute ur spelet
-ID: ULFZHT-6021 Namn: 5 Valör: Ruter Värde: 7
-ID: LIFTAE-0466 Namn: 6 Valör: Ruter Värde: 4
-ID: ULFZHT-6021 Namn: 5 Läte: mjau
-ID: LIFTAE-0466 Namn: 6 Läte: ihah
-ID: LIFTAE-0466 Namn: 6 Valör: Spader Värde: J
-AJBBJO-7541 Namn: 7 Är ute ur spelet
-ID: MTHKPC-5688 Namn: 8 Valör: Hjärter Värde: 7
-ID: RRCHUE-2864 Namn: 9 Valör: Klöver Värde: A
-JUQSRY-8504 Namn: 10 Är ute ur spelet
-ID: FVYXSF-4630 Namn: 1 Valör: Spader Värde: 8
-SXIGKH-6034 Namn: 2 Är ute ur spelet
-KYISVS-5583 Namn: 3 Är ute ur spelet
-QHGTSV-8586 Namn: 4 Är ute ur spelet
-ID: ULFZHT-6021 Namn: 5 Valör: Ruter Värde: 2
-ID: LIFTAE-0466 Namn: 6 Valör: Klöver Värde: K
-AJBBJO-7541 Namn: 7 Är ute ur spelet
-ID: MTHKPC-5688 Namn: 8 Valör: Ruter Värde: A
-JUQSRY-8504 Namn: 10 Är ute ur spelet
-ID: FVYXSF-4630 Namn: 1 Valör: Hjärter Värde: 4
-SXIGKH-6034 Namn: 2 Är ute ur spelet
-KYISVS-5583 Namn: 3 Är ute ur spelet
-QHGTSV-8586 Namn: 4 Är ute ur spelet
-ID: ULFZHT-6021 Namn: 5 Valör: Klöver Värde: 7
-AJBBJO-7541 Namn: 7 Är ute ur spelet
-RRCHUE-2864 Namn: 9 Är ute ur spelet
-JUQSRY-8504 Namn: 10 Är ute ur spelet
-ID: FVYXSF-4630 Namn: 1 Valör: Ruter Värde: 9
-SXIGKH-6034 Namn: 2 Är ute ur spelet
-KYISVS-5583 Namn: 3 Är ute ur spelet
-QHGTSV-8586 Namn: 4 Är ute ur spelet
-ID: ULFZHT-6021 Namn: 5 Valör: Hjärter Värde: Q
-LIFTAE-0466 Namn: 6 Är ute ur spelet
-AJBBJO-7541 Namn: 7 Är ute ur spelet
-MTHKPC-5688 Namn: 8 Är ute ur spelet
-RRCHUE-2864 Namn: 9 Är ute ur spelet
-JUQSRY-8504 Namn: 10 Är ute ur spelet
-SXIGKH-6034 Namn: 2 Är ute ur spelet
-KYISVS-5583 Namn: 3 Är ute ur spelet
-QHGTSV-8586 Namn: 4 Är ute ur spelet
-ID: ULFZHT-6021 Namn: 5 Valör: Hjärter Värde: 5
-LIFTAE-0466 Namn: 6 Är ute ur spelet
-AJBBJO-7541 Namn: 7 Är ute ur spelet
-MTHKPC-5688 Namn: 8 Är ute ur spelet
-RRCHUE-2864 Namn: 9 Är ute ur spelet
-JUQSRY-8504 Namn: 10 Är ute ur spelet
-FVYXSF-4630 Namn: 1 Är ute ur spelet
-SXIGKH-6034 Namn: 2 Är ute ur spelet
+ID: PYAPIA-5410 Namn: 1 Valör: Hjärter Värde: J
+ID: JWJODH-0304 Namn: 2 Valör: Klöver Värde: 7
+ID: JFTTGH-6021 Namn: 3 Valör: Spader Värde: 2
+ID: PANORT-8050 Namn: 4 Valör: Klöver Värde: 10
+ID: PYAPIA-5410 Namn: 1 Valör: Ruter Värde: 4
+ID: JWJODH-0304 Namn: 2 Valör: Spader Värde: A
+ID: JFTTGH-6021 Namn: 3 Valör: Ruter Värde: K
+ID: PANORT-8050 Namn: 4 Valör: Ruter Värde: 2
+ID: JFTTGH-6021 Namn: 3 Läte: huh
+ID: PANORT-8050 Namn: 4 Läte: hiss
+ID: PANORT-8050 Namn: 4 Valör: Spader Värde: 10
+ID: PYAPIA-5410 Namn: 1 Valör: Ruter Värde: 5
+ID: JWJODH-0304 Namn: 2 Valör: Hjärter Värde: 8
+ID: JFTTGH-6021 Namn: 3 Valör: Klöver Värde: 9
+ID: PANORT-8050 Namn: 4 Valör: Ruter Värde: J
+ID: PYAPIA-5410 Namn: 1 Valör: Hjärter Värde: 3
+ID: JWJODH-0304 Namn: 2 Valör: Ruter Värde: A
+ID: JFTTGH-6021 Namn: 3 Valör: Ruter Värde: 9
+ID: JWJODH-0304 Namn: 2 Läte: hiss
+ID: JFTTGH-6021 Namn: 3 Läte: mu
+ID: JFTTGH-6021 Namn: 3 Valör: Klöver Värde: Q
+ID: PANORT-8050 Namn: 4 Valör: Spader Värde: 4
+ID: PYAPIA-5410 Namn: 1 Valör: Ruter Värde: 6
+ID: JWJODH-0304 Namn: 2 Valör: Spader Värde: K
+ID: JFTTGH-6021 Namn: 3 Valör: Spader Värde: 7
+ID: JWJODH-0304 Namn: 2 Läte: hiss
+ID: JFTTGH-6021 Namn: 3 Läte: mu
+ID: JFTTGH-6021 Namn: 3 Valör: Hjärter Värde: 9
+ID: PANORT-8050 Namn: 4 Valör: Klöver Värde: 6
+ID: PYAPIA-5410 Namn: 1 Valör: Spader Värde: 3
+ID: JWJODH-0304 Namn: 2 Valör: Spader Värde: J
+ID: PYAPIA-5410 Namn: 1 Läte: mu
+ID: JWJODH-0304 Namn: 2 Läte: woff
+ID: JWJODH-0304 Namn: 2 Valör: Hjärter Värde: 7
+ID: JFTTGH-6021 Namn: 3 Valör: Klöver Värde: 4
+ID: PANORT-8050 Namn: 4 Valör: Klöver Värde: 8
+ID: JFTTGH-6021 Namn: 3 Läte: huh
+ID: PANORT-8050 Namn: 4 Läte: hiss
+ID: PANORT-8050 Namn: 4 Valör: Hjärter Värde: 6
+ID: PYAPIA-5410 Namn: 1 Valör: Klöver Värde: 2
+ID: JWJODH-0304 Namn: 2 Valör: Klöver Värde: 3
+ID: PYAPIA-5410 Namn: 1 Läte: mu
+ID: JWJODH-0304 Namn: 2 Läte: woff
+ID: JWJODH-0304 Namn: 2 Valör: Spader Värde: 9
+ID: JFTTGH-6021 Namn: 3 Valör: Hjärter Värde: 5
+ID: PANORT-8050 Namn: 4 Valör: Spader Värde: 6
+ID: PYAPIA-5410 Namn: 1 Valör: Spader Värde: 5
+ID: PANORT-8050 Namn: 4 Läte: woff
+ID: PYAPIA-5410 Namn: 1 Läte: huh
+ID: PYAPIA-5410 Namn: 1 Valör: Hjärter Värde: K
+ID: JWJODH-0304 Namn: 2 Valör: Hjärter Värde: A
+ID: PYAPIA-5410 Namn: 1 Läte: mu
+ID: JWJODH-0304 Namn: 2 Läte: woff
+ID: JWJODH-0304 Namn: 2 Valör: Spader Värde: 8
+ID: JFTTGH-6021 Namn: 3 Valör: Ruter Värde: 7
+ID: PANORT-8050 Namn: 4 Valör: Klöver Värde: K
+ID: PYAPIA-5410 Namn: 1 Valör: Hjärter Värde: 4
+ID: JWJODH-0304 Namn: 2 Valör: Hjärter Värde: 2
+ID: PYAPIA-5410 Namn: 1 Läte: mu
+ID: JWJODH-0304 Namn: 2 Läte: woff
+ID: JWJODH-0304 Namn: 2 Valör: Klöver Värde: 9
+ID: JFTTGH-6021 Namn: 3 Valör: Ruter Värde: 8
+ID: PANORT-8050 Namn: 4 Valör: Hjärter Värde: Q
+ID: PYAPIA-5410 Namn: 1 Valör: Klöver Värde: 5
+ID: JWJODH-0304 Namn: 2 Valör: Ruter Värde: K
+TZGHCB-5550 Namn: 2 Är ute ur spelet
+ID: ZUDVIT-0202 Namn: 3 Valör: Spader Värde: 9
+MSFJLI-6313 Namn: 4 Är ute ur spelet
+JMGXRW-6074 Namn: 5 Är ute ur spelet
+ID: GUHRTB-4253 Namn: 6 Valör: Klöver Värde: 7
+KOYYZJ-0014 Namn: 7 Är ute ur spelet
+JSIRFJ-7875 Namn: 8 Är ute ur spelet
+ESWBJK-5845 Namn: 9 Är ute ur spelet
+QQKBHS-5258 Namn: 10 Är ute ur spelet
+ID: DVABYY-1363 Namn: 1 Valör: Klöver Värde: J
+ID: GUHRTB-4253 Namn: 6 Läte: huh
+ID: DVABYY-1363 Namn: 1 Läte: bää
+ID: DVABYY-1363 Namn: 1 Valör: Klöver Värde: 10
+TZGHCB-5550 Namn: 2 Är ute ur spelet
+TZGHCB-5550 Namn: 2 Är ute ur spelet
+ID: ZUDVIT-0202 Namn: 3 Valör: Spader Värde: 9
+MSFJLI-6313 Namn: 4 Är ute ur spelet
+JMGXRW-6074 Namn: 5 Är ute ur spelet
